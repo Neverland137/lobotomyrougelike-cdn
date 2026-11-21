@@ -20,12 +20,10 @@
   "title": "游玩反馈",
   "content": [
     { "subtitle": "中文玩家看这里" },
-    { "text": "如果你碰到了弄不懂的机制，请填写这份问卷，这样我就可以优化教程和引导：", "link": "https://space.bilibili.com/176253840", "linkText": "问卷1" },
-    { "text": "如果你发现了BUG或者卡顿情况，请填写这份问卷，这样我就可以解决BUG：", "link": "https://space.bilibili.com/176253840", "linkText": "问卷2" },
-    { "text": "如果你发现本模组与其它模组冲突，请填写这份问卷，这样我就可以修复严重的冲突：", "link": "https://space.bilibili.com/176253840", "linkText": "问卷3" },
-    { "text": "如果你认为模组存在平衡性问题，例如难度过高、部分道具过强，请填写这份问卷，我会优化游戏体验！：", "link": "https://space.bilibili.com/176253840", "linkText": "问卷4" },
-    { "subtitle": "须知" },
-    { "text": "本模组由中国人制作，因此，游玩前请确保您支持“一个中国”政策。\n本模组需要在BaseMod1.3.1及以上的版本运行，您可以在游戏主页的左上角查看BaseMod版本号。以5开头的任何版本号都不正确。\n如果您的BaseMod版本号不正确，请前往这个链接下载：", "link": "https://www.nexusmods.com/site/mods/765", "linkText": "打开Nexus" }
+    { "text": "如果你碰到了弄不懂的机制，请填写这份问卷，这样我就可以优化教程和引导：", "link": "https://space.bilibili.com/176253840", "linkText": "这份问卷还没完成" },
+    { "text": "如果你发现了BUG或者卡顿情况，请填写这份问卷，这样我就可以解决BUG：", "link": "https://space.bilibili.com/176253840", "linkText": "这份问卷还没完成" },
+    { "text": "如果你发现本模组与其它模组冲突，请填写这份问卷，这样我就可以修复严重的冲突：", "link": "https://space.bilibili.com/176253840", "linkText": "这份问卷还没完成" },
+    { "text": "如果你认为模组存在平衡性问题，例如难度过高、部分道具过强，请填写这份问卷，我会优化游戏体验！：", "link": "https://space.bilibili.com/176253840", "linkText": "这份问卷还没完成" }
   ]
 }
   ]
