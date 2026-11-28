@@ -1,30 +1,488 @@
 {
-"announcements": [
-{
-"id": "notice_001",
-  "title": "欢迎游玩脑叶肉鸽！",
-  "content": [
-    { "subtitle": "初次游玩" },
-    { "text": "本模组为《脑叶公司》添加了全新的Rouge模式，点击主页的“探索支部”即可开始游玩。\n如果您之前没有玩过其它Rouge类型的游戏，或者对模组中的部分机制存在疑问，可以点击主页面中的“查看教程”按钮，或者前往这个链接查看教程：", "link": "https://space.bilibili.com/176253840", "linkText": "打开作者的bilibili主页" },
-    { "text": "模组后续的赛季更新通知、竞赛活动等，也将在该账号发布，欢迎关注。" },
-    { "subtitle": "须知" },
-    { "text": "本模组由中国人制作，因此，游玩前请确保您支持“一个中国”政策。\n本模组不支持盗版《脑叶公司》游戏，包括但不限于“学习版”、“手机游戏平台”、“云电脑”、“云游戏”等。若使用盗版游玩本模组则可能产生严重BUG，且作者不为此负责。只有从电脑端Steam平台下载的游戏是正版游戏。\n本模组需要在BaseMod1.3.1及以上的版本运行，您可以在游戏主页的左上角查看BaseMod版本号。以5开头的任何版本号都不正确。\n如果您的BaseMod版本号不正确，请前往这个链接下载：", "link": "https://www.nexusmods.com/site/mods/765", "linkText": "打开Nexus" },
-    { "subtitle": "定制模组、授权、合作等" },
-    { "text": "如果您希望：修改本模组、使用本模组制作整合包、与作者合作开发模组、向作者定制模因或者其它的《脑叶公司》模组，欢迎联系QQ2263221094。\n允许无授权分发，如果希望把这个模组发到群里或者什么地方，不用问我~"},
-    { "subtitle": "特别鸣谢" },
-    { "text": "主创：行光\n美术：星语，异瞳，萨菲瑞伊，语冰，行光\n代码：行光，曾小皮，初音没来\n文案：星语，行光，语冰\n模组设计：行光，曾小皮，语冰，小棋，坎诺特，HMI等\n此外，感谢 不言 提出的特殊员工的设想，该设想已作为随机事件中的疯员工加入模组。\n感谢 肥橘 花束 作为内测人员，为模组提出了相当多有用的建议。\n\nAI内容声明：本模组中，部分代码为AI生成，其余内容不含任何AI。"}
-  ]
-},
-{
-"id": "notice_002",
-  "title": "游玩反馈",
-  "content": [
-    { "subtitle": "中文玩家看这里" },
-    { "text": "如果你碰到了弄不懂的机制，请填写这份问卷，这样我就可以优化教程和引导：", "link": "https://space.bilibili.com/176253840", "linkText": "这份问卷还没完成" },
-    { "text": "如果你发现了BUG或者卡顿情况，请填写这份问卷，这样我就可以解决BUG：", "link": "https://space.bilibili.com/176253840", "linkText": "这份问卷还没完成" },
-    { "text": "如果你发现本模组与其它模组冲突，请填写这份问卷，这样我就可以修复严重的冲突：", "link": "https://space.bilibili.com/176253840", "linkText": "这份问卷还没完成" },
-    { "text": "如果你认为模组存在平衡性问题，例如难度过高、部分道具过强，请填写这份问卷，我会优化游戏体验！：", "link": "https://space.bilibili.com/176253840", "linkText": "这份问卷还没完成" }
-  ]
-}
+  "announcements": [
+    {
+      "id": "notice-001",
+      "type": "permanent",
+      "locales": [
+        {
+          "code": "cn",
+          "title": "欢迎游玩脑叶肉鸽！",
+          "content": [
+            {
+              "subtitle": "初次游玩"
+            },
+            {
+              "text": "本模组为《脑叶公司》添加了全新的Rouge模式，点击主页的“探索支部”即可开始游玩。\n如果您之前没有玩过其它Rouge类型的游戏，或者对模组中的部分机制存在疑问，可以点击主页面中的“查看教程”按钮，或者前往这个链接查看教程：",
+              "link": "https://space.bilibili.com/176253840",
+              "linkText": "打开作者的bilibili主页"
+            },
+            {
+              "text": "模组后续的赛季更新通知、竞赛活动等，也将在该账号发布，欢迎关注。"
+            },
+            {
+              "subtitle": "须知"
+            },
+            {
+              "text": "本模组由中国人制作，因此，游玩前请确保您支持“一个中国”政策。\n本模组不支持盗版《脑叶公司》游戏，包括但不限于“学习版”、“手机游戏平台”、“云电脑”、“云游戏”等。若使用盗版游玩本模组则可能产生严重BUG，且作者不为此负责。只有从电脑端Steam平台下载的游戏是正版游戏。\n本模组需要在BaseMod1.3.1及以上的版本运行，您可以在游戏主页的左上角查看BaseMod版本号。以5开头的任何版本号都不正确。\n如果您的BaseMod版本号不正确，请前往这个链接下载：",
+              "link": "https://www.nexusmods.com/site/mods/765",
+              "linkText": "打开Nexus"
+            },
+            {
+              "subtitle": "特别鸣谢"
+            },
+            {
+              "text": "主创：行光\n美术：星语，异瞳，萨菲瑞伊，语冰，行光\n代码：行光，曾小皮，Plana\n文案：星语，行光，语冰\n模组设计：行光，曾小皮，语冰，小棋，坎诺特，HMI等\n此外，感谢 不言 提出的特殊员工的设想，该设想已作为随机事件中的疯员工加入模组。\n感谢 肥橘 花束 作为内测人员，为模组提出了相当多有用的建议。\n\nAI内容声明：本模组中，部分代码为AI生成，其余内容不含任何AI。"
+            }
+          ]
+        },
+        {
+          "code": "en",
+          "title": "Welcome to Lobotomy Rougelike!",
+          "content": [
+            {
+              "subtitle": "First time playing"
+            },
+            {
+              "text": "This mod adds a brand-new Rouge mode to Lobotomy Corporation. Click “Explore Branch” on the title screen to start.\nIf you have never played a Rouge-like game before, or have questions about some of the mod's mechanics, click the “View Tutorial” button on the title screen, or visit this link for the tutorial:",
+              "link": "https://space.bilibili.com/176253840",
+              "linkText": "Open the author's bilibili page"
+            },
+            {
+              "text": "Future season updates, competitions, and other announcements for the mod will also be posted on that account. Follow if you're interested."
+            },
+            {
+              "subtitle": "Important"
+            },
+            {
+              "text": "This mod was made by Chinese developers. Before playing, please make sure you support the One-China policy.\nThis mod does not support pirated copies of Lobotomy Corporation, including but not limited to “cracked versions”, “mobile game platforms”, “cloud PCs”, and “cloud gaming”. Playing this mod on a pirated copy may cause serious bugs, and the author is not responsible for them. Only the game downloaded from the PC Steam platform is a legitimate copy.\nThis mod requires BaseMod 1.3.1 or later. You can check the BaseMod version in the upper-left corner of the game's title screen. Any version number starting with 5 is incorrect.\nIf your BaseMod version is incorrect, download it from this link:",
+              "link": "https://www.nexusmods.com/site/mods/765",
+              "linkText": "Open Nexus"
+            },
+            {
+              "subtitle": "Special Thanks"
+            },
+            {
+              "text": "Lead developer: ykmt\nArt: Supernova, The myriads, SaFeiRuiYi, SummerNightJade, ykmt\nCode: ykmt, ZengXiaoPi, Plana\nWriting: Supernova, ykmt, SummerNightJade\nMod design: ykmt, ZengXiaoPi, SummerNightJade, ComicChess, KanNuoTe, HMI, et al.\nSpecial thanks to BuYan for the special employee idea, which has been added to the mod as the mad employee in random events.\nThanks to Fallenstar and Camellia for their extensive and useful feedback as internal testers.\n\nAI content disclosure: Some code in this mod was generated with AI; no other content contains AI."
+            }
+          ]
+        },
+        {
+          "code": "jp",
+          "title": "脳葉ローグライクへようこそ！",
+          "content": [
+            {
+              "subtitle": "初めてのプレイ"
+            },
+            {
+              "text": "本MODは『ロボトミーコーポレーション』に新しいRougeモードを追加します。タイトル画面の「探索支部」をクリックするとプレイを開始できます。\nRougeライクゲームを遊んだことがない場合や、MODの一部の仕組みについて疑問がある場合は、タイトル画面の「チュートリアルを見る」ボタンをクリックするか、次のリンクからチュートリアルをご覧ください：",
+              "link": "https://space.bilibili.com/176253840",
+              "linkText": "作者のbilibiliページを開く"
+            },
+            {
+              "text": "MODの今後のシーズンアップデートやコンテストなどのお知らせも、そのアカウントで公開されます。ぜひフォローしてください。"
+            },
+            {
+              "subtitle": "注意"
+            },
+            {
+              "text": "本MODは中国人によって制作されています。プレイ前に「一つの中国」政策を支持していることをご確認ください。\n本MODは『ロボトミーコーポレーション』の海賊版をサポートしません。これには「クラック版」「モバイルゲームプラットフォーム」「クラウドPC」「クラウドゲーミング」などが含まれますが、これらに限りません。海賊版で本MODをプレイすると深刻なBUGが発生する可能性があり、作者は責任を負いません。PC版Steamからダウンロードしたゲームのみが正規版です。\n本MODはBaseMod 1.3.1以上が必要です。ゲームのタイトル画面左上でBaseModのバージョンを確認できます。5で始まるバージョン番号はすべて不正です。\nBaseModのバージョンが正しくない場合は、次のリンクからダウンロードしてください：",
+              "link": "https://www.nexusmods.com/site/mods/765",
+              "linkText": "Nexusを開く"
+            },
+            {
+              "subtitle": "特別感謝"
+            },
+            {
+              "text": "企画・主導：ykmt\nアート：Supernova、The myriads、SaFeiRuiYi、SummerNightJade、ykmt\nコード：ykmt、ZengXiaoPi、Plana\nシナリオ：Supernova、ykmt、SummerNightJade\nMODデザイン：ykmt、ZengXiaoPi、SummerNightJade、ComicChess、KanNuoTe、HMI ほか\n特殊社員のアイデアを提供してくれた BuYan に感謝します。このアイデアはランダムイベントの「狂った社員」としてMODに追加されました。\n内部テストとして多くの有用な提案をくれた Fallenstar と Camellia に感謝します。\n\nAIコンテンツに関する声明：本MODの一部コードはAIによって生成されました。それ以外の内容にAIは使用されていません。"
+            }
+          ]
+        },
+        {
+          "code": "kr",
+          "title": "뇌엽 로그라이크에 오신 것을 환영합니다!",
+          "content": [
+            {
+              "subtitle": "첫 플레이"
+            },
+            {
+              "text": "이 모드는 《로보토미 코퍼레이션》에 새로운 Rouge 모드를 추가합니다. 타이틀 화면의 “탐색 지부”를 클릭하면 플레이를 시작할 수 있습니다.\nRouge류 게임을 해 본 적이 없거나 모드의 일부 시스템에 대해 궁금한 점이 있다면 타이틀 화면의 “튜토리얼 보기” 버튼을 클릭하거나 다음 링크에서 튜토리얼을 확인하세요:",
+              "link": "https://space.bilibili.com/176253840",
+              "linkText": "작성자의 bilibili 페이지 열기"
+            },
+            {
+              "text": "모드의 향후 시즌 업데이트, 대회 등의 공지도 해당 계정에 게시됩니다. 관심 있으시면 팔로우해 주세요."
+            },
+            {
+              "subtitle": "주의"
+            },
+            {
+              "text": "이 모드는 중국인 제작자가 만들었습니다. 플레이 전에 ‘하나의 중국’ 정책을 지지하는지 확인해 주세요.\n이 모드는 《로보토미 코퍼레이션》 불법 복제판을 지원하지 않습니다. 여기에는 ‘크랙판’, ‘모바일 게임 플랫폼’, ‘클라우드 PC’, ‘클라우드 게이밍’ 등이 포함되며 이에 국한되지 않습니다. 불법 복제판으로 이 모드를 플레이하면 심각한 버그가 발생할 수 있으며 제작자는 이에 대해 책임지지 않습니다. PC Steam 플랫폼에서 다운로드한 게임만 정품입니다.\n이 모드는 BaseMod 1.3.1 이상이 필요합니다. 게임 타이틀 화면 왼쪽 위에서 BaseMod 버전을 확인할 수 있습니다. 5로 시작하는 버전 번호는 모두 올바르지 않습니다.\nBaseMod 버전이 올바르지 않다면 다음 링크에서 다운로드하세요:",
+              "link": "https://www.nexusmods.com/site/mods/765",
+              "linkText": "Nexus 열기"
+            },
+            {
+              "subtitle": "특별 감사"
+            },
+            {
+              "text": "총괄: ykmt\n아트: Supernova, The myriads, SaFeiRuiYi, SummerNightJade, ykmt\n코드: ykmt, ZengXiaoPi, Plana\n시나리오: Supernova, ykmt, SummerNightJade\n모드 디자인: ykmt, ZengXiaoPi, SummerNightJade, ComicChess, KanNuoTe, HMI 등\n특수 직원 아이디어를 제공한 BuYan에게 감사합니다. 이 아이디어는 랜덤 이벤트의 광란 직원으로 모드에 추가되었습니다.\n내부 테스트로 많은 유용한 제안을 해 준 Fallenstar와 Camellia에게 감사합니다.\n\nAI 콘텐츠 고지: 이 모드의 일부 코드는 AI로 생성되었습니다. 그 외의 콘텐츠에는 AI가 사용되지 않았습니다."
+            }
+          ]
+        },
+        {
+          "code": "ru",
+          "title": "Добро пожаловать в Lobotomy Rougelike!",
+          "content": [
+            {
+              "subtitle": "Первый запуск"
+            },
+            {
+              "text": "Этот мод добавляет в 《Lobotomy Corporation》 новый режим Rouge. Нажмите «Исследовать филиал» на главном экране, чтобы начать.\nЕсли вы никогда не играли в Rouge-like игры или у вас есть вопросы по некоторым механикам мода, нажмите кнопку «Посмотреть обучение» на главном экране или перейдите по ссылке ниже:",
+              "link": "https://space.bilibili.com/176253840",
+              "linkText": "Открыть страницу автора на bilibili"
+            },
+            {
+              "text": "Будущие сезонные обновления мода, конкурсы и другие новости также будут публиковаться в этом аккаунте. Подписывайтесь, если интересно."
+            },
+            {
+              "subtitle": "Важно"
+            },
+            {
+              "text": "Этот мод создан китайскими разработчиками. Перед игрой убедитесь, что вы поддерживаете политику «одного Китая».\nЭтот мод не поддерживает пиратские копии Lobotomy Corporation, включая, помимо прочего, «взломанные версии», «мобильные игровые платформы», «облачные ПК» и «облачный гейминг». Игра с пиратской копией может вызвать серьёзные баги, и автор за них не отвечает. Легальной является только игра, загруженная через Steam на ПК.\nДля мода требуется BaseMod 1.3.1 или новее. Версию BaseMod можно посмотреть в левом верхнем углу главного экрана игры. Любая версия, начинающаяся с 5, неверна.\nЕсли версия BaseMod неверна, скачайте её по этой ссылке:",
+              "link": "https://www.nexusmods.com/site/mods/765",
+              "linkText": "Открыть Nexus"
+            },
+            {
+              "subtitle": "Особая благодарность"
+            },
+            {
+              "text": "Главный разработчик: ykmt\nГрафика: Supernova, The myriads, SaFeiRuiYi, SummerNightJade, ykmt\nКод: ykmt, ZengXiaoPi, Plana\nТекст: Supernova, ykmt, SummerNightJade\nДизайн мода: ykmt, ZengXiaoPi, SummerNightJade, ComicChess, KanNuoTe, HMI и др.\nОсобая благодарность BuYan за идею особого сотрудника; она добавлена в мод как безумный сотрудник в случайных событиях.\nБлагодарим Fallenstar и Camellia за множество полезных предложений во время внутреннего тестирования.\n\nЗаявление об AI-контенте: часть кода в этом моде создана с помощью AI; остальной контент AI не содержит."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "notice-002",
+      "type": "permanent",
+      "locales": [
+        {
+          "code": "cn",
+          "title": "游玩反馈",
+          "content": [
+            {
+              "text": "如果你碰到了弄不懂的机制，请填写这份问卷，这样我就可以优化教程和引导：",
+              "link": "https://wj.qq.com/s2/28689105/le9d/",
+              "linkText": "困惑反馈问卷"
+            },
+            {
+              "text": "如果你发现了BUG或者卡顿情况，请填写这份问卷，这样我就可以解决BUG：",
+              "link": "https://wj.qq.com/s2/28773104/kuzd/",
+              "linkText": "BUG反馈问卷"
+            },
+            {
+              "text": "如果你发现本模组与其它模组冲突，请填写这份问卷，这样我就可以修复严重的冲突：",
+              "link": "https://wj.qq.com/s2/28773408/6fpk/",
+              "linkText": "冲突反馈问卷"
+            },
+            {
+              "text": "如果你认为模组存在平衡性问题，例如难度过高、部分道具过强，请填写这份问卷，我会优化游戏体验！：",
+              "link": "https://wj.qq.com/s2/28773435/dlg4/",
+              "linkText": "平衡性反馈问卷"
+            }
+          ]
+        },
+        {
+          "code": "en",
+          "title": "Gameplay Feedback",
+          "content": [
+            {
+              "text": "If you encounter a mechanic you don't understand, please fill out this survey so I can improve the tutorial and guidance:",
+              "link": "https://wj.qq.com/s2/28689105/le9d/",
+              "linkText": "Confusion feedback survey"
+            },
+            {
+              "text": "If you find a bug or stutter, please fill out this survey so I can fix it:",
+              "link": "https://wj.qq.com/s2/28773104/kuzd/",
+              "linkText": "BUG feedback survey"
+            },
+            {
+              "text": "If you find that this mod conflicts with another mod, please fill out this survey so I can fix serious conflicts:",
+              "link": "https://wj.qq.com/s2/28773408/6fpk/",
+              "linkText": "Conflict feedback survey"
+            },
+            {
+              "text": "If you think there is a balance problem, such as the difficulty being too high or some items being too strong, please fill out this survey. I will improve the experience!",
+              "link": "https://wj.qq.com/s2/28773435/dlg4/",
+              "linkText": "Balance feedback survey"
+            }
+          ]
+        },
+        {
+          "code": "jp",
+          "title": "プレイフィードバック",
+          "content": [
+            {
+              "text": "理解できない仕組みに遭遇した場合は、このアンケートにご記入ください。チュートリアルとガイドの改善に役立てます：",
+              "link": "https://wj.qq.com/s2/28689105/le9d/",
+              "linkText": "困惑フィードバックアンケート"
+            },
+            {
+              "text": "BUGやカクつきを見つけた場合は、このアンケートにご記入ください。修正に役立てます：",
+              "link": "https://wj.qq.com/s2/28773104/kuzd/",
+              "linkText": "BUG報告アンケート"
+            },
+            {
+              "text": "このMODが他のMODと競合する場合は、このアンケートにご記入ください。深刻な競合の修正に役立てます：",
+              "link": "https://wj.qq.com/s2/28773408/6fpk/",
+              "linkText": "競合フィードバックアンケート"
+            },
+            {
+              "text": "難易度が高すぎる、一部のアイテムが強すぎるなど、バランスに問題があると思われる場合は、このアンケートにご記入ください。ゲーム体験の改善に役立てます！",
+              "link": "https://wj.qq.com/s2/28773435/dlg4/",
+              "linkText": "バランスフィードバックアンケート"
+            }
+          ]
+        },
+        {
+          "code": "kr",
+          "title": "플레이 피드백",
+          "content": [
+            {
+              "text": "이해하기 어려운 시스템을 만났다면 이 설문지를 작성해 주세요. 튜토리얼과 안내를 개선하는 데 사용하겠습니다:",
+              "link": "https://wj.qq.com/s2/28689105/le9d/",
+              "linkText": "혼란 피드백 설문"
+            },
+            {
+              "text": "버그나 끊김 현상을 발견하면 이 설문지를 작성해 주세요. 수정하는 데 사용하겠습니다:",
+              "link": "https://wj.qq.com/s2/28773104/kuzd/",
+              "linkText": "버그 신고 설문"
+            },
+            {
+              "text": "이 모드가 다른 모드와 충돌한다면 이 설문지를 작성해 주세요. 심각한 충돌을 수정하는 데 사용하겠습니다:",
+              "link": "https://wj.qq.com/s2/28773408/6fpk/",
+              "linkText": "충돌 피드백 설문"
+            },
+            {
+              "text": "난이도가 너무 높거나 일부 아이템이 너무 강한 등 밸런스 문제가 있다고 생각되면 이 설문지를 작성해 주세요. 게임 경험을 개선하겠습니다!",
+              "link": "https://wj.qq.com/s2/28773435/dlg4/",
+              "linkText": "밸런스 피드백 설문"
+            }
+          ]
+        },
+        {
+          "code": "ru",
+          "title": "Обратная связь по игре",
+          "content": [
+            {
+              "text": "Если вы столкнулись с непонятной механикой, заполните эту анкету, чтобы я мог улучшить обучение и подсказки:",
+              "link": "https://wj.qq.com/s2/28689105/le9d/",
+              "linkText": "Анкета о непонятных моментах"
+            },
+            {
+              "text": "Если вы нашли баг или зависание, заполните эту анкету, чтобы я мог это исправить:",
+              "link": "https://wj.qq.com/s2/28773104/kuzd/",
+              "linkText": "Анкета о багах"
+            },
+            {
+              "text": "Если этот мод конфликтует с другим модом, заполните эту анкету, чтобы я мог исправить серьёзные конфликты:",
+              "link": "https://wj.qq.com/s2/28773408/6fpk/",
+              "linkText": "Анкета о конфликтах"
+            },
+            {
+              "text": "Если вы считаете, что есть проблемы с балансом — например, сложность слишком высока или некоторые предметы слишком сильны, — заполните эту анкету. Я улучшу игровой опыт!",
+              "link": "https://wj.qq.com/s2/28773435/dlg4/",
+              "linkText": "Анкета о балансе"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "notice-003",
+      "type": "permanent",
+      "locales": [
+        {
+          "code": "cn",
+          "title": "交流群、定制模组、合作等",
+          "content": [
+            {
+              "text": "交流群：150247945",
+              "link": "https://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=Bj4OoBoX-wd3G1W7Liul4Gx1uyqXXRVs&authKey=WcFFYxhf7bvvQesLkH7nWbrahtrjwHLSFYxpFPIo8wiGnzDdnK4THV%2FbQsV7%2FUDl&noverify=0&group_code=150247945",
+              "linkText": "点击此处加入交流群"
+            },
+            {
+              "text": "如果您希望：修改本模组、使用本模组制作整合包、与作者合作开发模组、向作者定制模因或者其它的《脑叶公司》模组，欢迎联系QQ2263221094。"
+            },
+            {
+              "text": "允许无授权分发，如果希望把这个模组发到群里或者什么地方，不用问我~"
+            }
+          ]
+        },
+        {
+          "code": "en",
+          "title": "Community Group, Custom Mods, Collaboration, etc.",
+          "content": [
+            {
+              "text": "Community group: 150247945",
+              "link": "https://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=Bj4OoBoX-wd3G1W7Liul4Gx1uyqXXRVs&authKey=WcFFYxhf7bvvQesLkH7nWbrahtrjwHLSFYxpFPIo8wiGnzDdnK4THV%2FbQsV7%2FUDl&noverify=0&group_code=150247945",
+              "linkText": "Click here to join the community group"
+            },
+            {
+              "text": "If you would like to: modify this mod, use it to create a modpack, collaborate with the author on mod development, or commission the author to create Memes or other Lobotomy Corporation mods, feel free to contact QQ 2263221094."
+            },
+            {
+              "text": "Unauthorized distribution is allowed. If you want to share this mod in a group or elsewhere, you don't need to ask me~"
+            }
+          ]
+        },
+        {
+          "code": "jp",
+          "title": "交流グループ、MOD制作依頼、コラボなど",
+          "content": [
+            {
+              "text": "交流グループ：150247945",
+              "link": "https://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=Bj4OoBoX-wd3G1W7Liul4Gx1uyqXXRVs&authKey=WcFFYxhf7bvvQesLkH7nWbrahtrjwHLSFYxpFPIo8wiGnzDdnK4THV%2FbQsV7%2FUDl&noverify=0&group_code=150247945",
+              "linkText": "ここをクリックして交流グループに参加"
+            },
+            {
+              "text": "本MODの改変、本MODを使った統合パックの制作、作者とのMOD共同開発、作者への模因やその他の『ロボトミーコーポレーション』MODの制作依頼などをご希望の場合は、QQ 2263221094 までお気軽にご連絡ください。"
+            },
+            {
+              "text": "無断配布を許可します。このMODをグループやどこかに配布したい場合、私に聞く必要はありません～"
+            }
+          ]
+        },
+        {
+          "code": "kr",
+          "title": "커뮤니티 그룹, 모드 제작 의뢰, 협업 등",
+          "content": [
+            {
+              "text": "커뮤니티 그룹: 150247945",
+              "link": "https://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=Bj4OoBoX-wd3G1W7Liul4Gx1uyqXXRVs&authKey=WcFFYxhf7bvvQesLkH7nWbrahtrjwHLSFYxpFPIo8wiGnzDdnK4THV%2FbQsV7%2FUDl&noverify=0&group_code=150247945",
+              "linkText": "여기를 클릭하여 커뮤니티 그룹에 참가"
+            },
+            {
+              "text": "이 모드를 수정하거나, 이 모드로 모드팩을 만들거나, 제작자와 모드 개발을 협업하거나, 제작자에게 밈 또는 다른 《로보토미 코퍼레이션》 모드 제작을 의뢰하고 싶다면 QQ 2263221094로 연락해 주세요."
+            },
+            {
+              "text": "무단 배포를 허용합니다. 이 모드를 그룹이나 다른 곳에 배포하고 싶다면 저에게 물어보지 않아도 됩니다~"
+            }
+          ]
+        },
+        {
+          "code": "ru",
+          "title": "Сообщество, заказ модов, сотрудничество и т. д.",
+          "content": [
+            {
+              "text": "Группа сообщества: 150247945",
+              "link": "https://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=Bj4OoBoX-wd3G1W7Liul4Gx1uyqXXRVs&authKey=WcFFYxhf7bvvQesLkH7nWbrahtrjwHLSFYxpFPIo8wiGnzDdnK4THV%2FbQsV7%2FUDl&noverify=0&group_code=150247945",
+              "linkText": "Нажмите здесь, чтобы вступить в группу"
+            },
+            {
+              "text": "Если вы хотите изменить этот мод, использовать его для сборки модпака, сотрудничать с автором в разработке модов или заказать автору создание мемов либо других модов для 《Lobotomy Corporation》, свяжитесь с нами в QQ 2263221094."
+            },
+            {
+              "text": "Распространение без разрешения разрешено. Если вы хотите поделиться этим модом в группе или где-то ещё, спрашивать меня не нужно~"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "notice-004",
+      "type": "permanent",
+      "locales": [
+        {
+          "code": "cn",
+          "title": "冲突模组列表",
+          "content": [
+            {
+              "subtitle": "目前与《脑叶肉鸽》冲突的模组"
+            },
+            {
+              "text": "金笠异想体\n浦牢异想体"
+            },
+            {
+              "subtitle": "曾经与《脑叶肉鸽》冲突，现已不冲突的模组"
+            },
+            {
+              "text": "暂无"
+            }
+          ]
+        },
+        {
+          "code": "en",
+          "title": "Conflicting Mods",
+          "content": [
+            {
+              "subtitle": "Currently conflicting with Lobotomy Rougelike"
+            },
+            {
+              "text": "Bamboo-Hated Kim Abnormality\nPuLao Abnormality"
+            },
+            {
+              "subtitle": "Previously conflicting, now compatible"
+            },
+            {
+              "text": "None"
+            }
+          ]
+        },
+        {
+          "code": "jp",
+          "title": "競合するMOD一覧",
+          "content": [
+            {
+              "subtitle": "現在『脳葉ローグライク』と競合するMOD"
+            },
+            {
+              "text": "金笠アブノーマリティ\n浦牢アブノーマリティ"
+            },
+            {
+              "subtitle": "以前は競合していたが、現在は競合しないMOD"
+            },
+            {
+              "text": "なし"
+            }
+          ]
+        },
+        {
+          "code": "kr",
+          "title": "충돌 모드 목록",
+          "content": [
+            {
+              "subtitle": "현재 《뇌엽 로그라이크》와 충돌하는 모드"
+            },
+            {
+              "text": "금립 환상체\n포로 환상체"
+            },
+            {
+              "subtitle": "과거에 충돌했지만 현재는 충돌하지 않는 모드"
+            },
+            {
+              "text": "없음"
+            }
+          ]
+        },
+        {
+          "code": "ru",
+          "title": "Список конфликтующих модов",
+          "content": [
+            {
+              "subtitle": "В настоящее время конфликтуют с Lobotomy Rougelike"
+            },
+            {
+              "text": "Абнормальность Bamboo-Hated Kim\nАбнормальность Poro"
+            },
+            {
+              "subtitle": "Ранее конфликтовали, теперь совместимы"
+            },
+            {
+              "text": "Нет"
+            }
+          ]
+        }
+      ]
+    }
   ]
 }
