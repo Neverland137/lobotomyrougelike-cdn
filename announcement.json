@@ -406,7 +406,7 @@
               "subtitle": "与《脑叶肉鸽》轻微冲突，不影响主要游玩体验的模组"
             },
             {
-              "text": "丘比异想体 | Incubator，在Rouge模式下该模组不能触发“魔女之夜”，但常规游玩模式无影响\n碧蓝档案 | BlueArchive，启用BA时，《脑叶肉鸽》的公告按钮消失\n殷红迷雾的回归 | Return of the Redmist，在Rouge模式下不能挑战Kali，但常规游玩模式无影响"
+              "text": "丘比异想体 | Incubator，在Rouge模式下该模组不能触发“魔女之夜”，但常规游玩模式无影响\n碧蓝档案 | BlueArchive，启用BA时，《脑叶肉鸽》的公告按钮消失\n殷红迷雾的回归 | Return of the Redmist，在Rouge模式下挑战Kali会导致BUG，但常规游玩模式无影响"
             },
             {
               "subtitle": "曾经冲突，但现已修复的模组"
